@@ -1,0 +1,127 @@
+/* Basic styles for the input field */
+.input-container {
+  
+    margin: 20px;
+}
+
+.input-field {
+    width: 98%;
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    background: aliceblue;
+}
+
+
+.input-field:hover {
+    border-color: #007bff; 
+}
+
+.text-align {
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.react-datepicker-wrapper {
+  display: inline-block;
+  padding: 0;
+  border: 0;
+  width: 100%;
+}
+
+.react-datepicker {
+    font-family: Arial, sans-serif;
+  
+    border-radius: 4px;
+    /* width: 40rem */
+  }
+  .datepicker-container {
+    width: 100%; 
+  }
+   
+
+  .react-datepicker__day--selected {
+    background-color: #007bff;
+    color: white;
+    width: 100%; 
+  }
+  
+
+  .react-datepicker__day--today {
+    font-weight: bold;
+    width: 100%; 
+  }
+  
+  .react-datepicker__input-container input {
+  
+    padding: 8px;
+    transition: border-color 0.3s;
+    background: aliceblue;
+    width: 100%;
+  }
+
+
+  
+  
+  .react-datepicker__input-container input:hover {
+    border-color: #007bff; 
+  }
+
+
+
+.search-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  #search-bar {
+    width: 200px;
+    padding: 10px;
+  }
+  
+  #search-results {
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    display: none;
+  }
+  
+  #search-results li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  #search-results li:hover {
+    background-color: #f2f2f2;
+  }
+/* Normal state styles */
+textarea {
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease; 
+}
+
+
+textarea:hover {
+    background-color: lightblue; 
+    border: 2px solid #00aaff; 
+}
+
+
+  .btn{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  .icon{
+    margin-right: 15px;
+    font-size: 14px !important;
+  }
